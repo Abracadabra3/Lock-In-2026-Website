@@ -3,23 +3,20 @@
     <head>
         <title>Concord Student Lock-In 2026</title>
         <link rel="stylesheet" href="index.css">
-        <style>
-            body{
-                background-image: url('airlock.webp');
-            }
-        </style>
     </head>
-    <body>
-        <div class="all">
+    <body class="login">
+        <div class="logintext">
             <h1>Voicemail</h1>
             <br>
             Enter your three-digit PIN:
+            <p>
             <input type="text" id="answer" placeholder="Type answer here"/>
             <button onclick="getAnswer()">Submit</button>
-            <br>
-            <div class="pin">
-                <button style="background-color: transparent; border: none; color: blue;" onclick="forgotPassword()">I forgot my PIN!</button>
-            </div>
+            </p>
+            <p>
+            <button style="background-color: transparent; border: none; color: blue;" 
+                onclick="forgotPassword()">I forgot my PIN!</button>
+            </p>
         </div>
         <script>
             const input = document.getElementById("answer");
