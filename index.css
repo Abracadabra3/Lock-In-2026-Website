@@ -22,9 +22,6 @@
     background-color: rgb(200, 255, 200);
     text-align: center;
 }
-.voicemail_button{
-    width: 60%;
-}
 .login {
     background-color: rgb(209, 234, 255);
     text-align: center;
@@ -33,11 +30,13 @@
 /* If on mobile */
 @media (max-width: 600px){
     body{font-size: 18;}
-    .voicemail_button{width: 80%;}
+    /* .voicemail_button{height: 50px;} */
+    .voicemail_button{width: 60%;}
 }
 
 /* If on desktop */
 @media (min-width: 601px){
     body{font-size: 30;}
-    .voicemail_button{width: 60%;}
+    /* .voicemail_button{height: 50px;} */
+    .voicemail_button{width: 40%;}
 }
