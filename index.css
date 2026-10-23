@@ -31,12 +31,12 @@
 @media (max-width: 600px){
     body{font-size: 18;}
     /* .voicemail_button{height: 50px;} */
-    .voicemail_button{width: 60%;}
+    .voicemail_button{width: 65%;}
 }
 
 /* If on desktop */
 @media (min-width: 601px){
     body{font-size: 30;}
     /* .voicemail_button{height: 50px;} */
-    .voicemail_button{width: 40%;}
+    .voicemail_button{width: 35%;}
 }
