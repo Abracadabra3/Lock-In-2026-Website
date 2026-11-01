@@ -2,6 +2,6 @@
 
 Here's the link to deployed website: 
 
-**[Try it here!](https://abracadabra3.github.io/Lock-In-2026-Website/)**
+**[Try it here!](https://escaperoom.abby-cadabra.org/)**
 
 Work in Progress
