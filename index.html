@@ -37,14 +37,15 @@
                 let answerValue = answerInput.value;
                 if (answerValue == "789" || answerValue == "7 8 9") {
                     alert("Logging in...")
-                    puzzle1Correct()
+                    // puzzle1Correct()
+                    window.location.replace("https://escaperoom.abby-cadabra.org/twothreefour")
                 }
                 else {
                     alert("Incorrect PIN.")
                 }
             }
             function puzzle1Correct(){
-                window.location.href('https://escaperoom.abby-cadabra.org/twothreefour/')
+                window.location.replace("https://escaperoom.abby-cadabra.org/twothreefour/")
             }
         </script>
     </body>
