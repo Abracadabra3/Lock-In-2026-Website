@@ -29,7 +29,7 @@
 
 /* If on mobile */
 @media (max-width: 600px){
-    body{font-size: 18;}
+    body{font-size: 20;}
     /* .voicemail_button{height: 50px;} */
     .voicemail_button{width: 65%;}
 }
